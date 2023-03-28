@@ -223,3 +223,18 @@ print()
 x = txt.upper()
 print(f"Original - {txt}, upper method - {x}")
 print()
+
+# ------------------------------------------------------------ other methods
+# ------------------------------ convert to a char from integer
+x = chr(97)
+print(f"from a number {97} to a char - {x}")
+print()
+
+# ------------------------------ convert to a number from a character
+x = ord('a')
+print(f"from a character {'a'} to a number {x}")
+print()
+
+# ------------------------------ get the length of a String
+print(f"Original - {txt}, length - {len(txt)}")
+print()
