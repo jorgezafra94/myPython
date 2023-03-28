@@ -134,7 +134,6 @@ other_input = "-123982"
 print(f"Original - {other_input}, isdigit method - {other_input.isdigit()}")
 print()
 
-
 # --------------------------- islower method
 # this method verify if all characters of a string are in lower case
 x = txt.islower()
@@ -237,4 +236,25 @@ print()
 
 # ------------------------------ get the length of a String
 print(f"Original - {txt}, length - {len(txt)}")
+print()
+
+# --------------------------------------------------------- things we can do with strings
+a = "python strings"
+
+# access characters of a string
+print(f"Original - {a}, character at position 2 - {a[2]}")
+print(f"Original - {a}, character at penultimate position - {a[-2]}")
+print()
+
+# ---------------------------------------------------------- Strings are immutable so you cant modify its content
+# --------------------------------------------------------- concatenation
+a = "Java"
+b = "Script"
+x = a + b
+print(f"original strings '{a}' and ´{b}´ combined {x}")
+print()
+
+# --------------------------------------------------------- * operator
+# this operator help us to multiply the content N times
+print(a * 4)
 print()
