@@ -18,3 +18,6 @@ x //= 2  # x = x // 2
 x **= 4  # x = x ** 4
 x %= 2  # x = x % 2
 
+# Another Way to get a number in base 10 from another base we can use int() but it has to be a String
+decimal_base = int("D", 16)
+print(decimal_base)
